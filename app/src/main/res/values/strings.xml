@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Logs</string>
+    <string name="send_log">Send log</string>
+    <string name="check_your_log">Check your log!</string>
+</resources>
