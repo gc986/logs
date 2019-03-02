@@ -1,6 +1,32 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
+
+ext {
+    bintrayRepo = 'implos'
+    bintrayName = 'logs'
+
+    publishedGroupId = 'ru.gc986'
+    libraryName = 'logs'
+    artifact = 'logs'
+
+    libraryDescription = 'Log helper'
+
+    siteUrl = 'https://github.com/gc986/logs'
+    gitUrl = 'https://github.com/gc986/logs'
+
+    libraryVersion = '0.0.1'
+
+    developerId = 'gc986'
+    developerName = 'Igor Yazovcev'
+    developerEmail = 'gc986@list.ru'
+
+    licenseName = 'AGPL-V3'
+    licenseUrl = 'https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License'
+    allLicenses = 'AGPL-V3'
+}
 
 android {
     compileSdkVersion 27
@@ -38,3 +64,6 @@ dependencies {
 repositories {
     mavenCentral()
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
