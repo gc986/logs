@@ -1,4 +1,3 @@
-# logs
 
 <h1>logs - helper for send logs in Logcat</h1><br>
 <br>
