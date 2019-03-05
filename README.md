@@ -4,20 +4,20 @@
 <br>
 How to use?<br>
 1 - Add dependence in <b>build.gradle</b><br>
-<i>implementation 'ru.gc986:logs:0.0.2'</i><br>
+<i><b>implementation 'ru.gc986:logs:0.0.2'</b></i><br>
 <br>
 2 - Set your TAG<br>
-<i>Logs.TAG = "text..."</i><br>
+<i><b>Logs.TAG = "text..."</b></i><br>
 <br>
 3 - Called function and put text<br>
-<i>Logs.i("some text...")</i><br>
+<i><b>Logs.i("some text...")</b></i><br>
 <br>
 4* - setup active<br>
-<i>Logs.enable = true</i><br>
+<i><b>Logs.enable = true</b></i><br>
 <br>
 Fuctions:<br>
 Logs.enable - on/off logs<br>
-Logs.i("text...") - send info log (if Logs.enable == true)<br>
-Logs.i("text...", Array<String>) - send array info log (if Logs.enable == true)<br>
-Logs.e("text...") - send err log (if Logs.enable == true)<br>
-Logs.showAlways("text...") - send info log<br>
+<i><b>Logs.i("text...")</b></i> - send info log <i>(if Logs.enable == true)</i><br>
+<i><b>Logs.i("text...", Array<String>)</i></b> - send array info log <i>(if Logs.enable == true)</i><br>
+<i><b>Logs.e("text...")</i></b> - send err log <i>(if Logs.enable == true)</i><br>
+<i><b>Logs.showAlways("text...")</i></b> - send info log<br>
