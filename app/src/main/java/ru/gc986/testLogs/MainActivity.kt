@@ -4,8 +4,9 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.view.View
 import android.view.View.VISIBLE
+import android.widget.Button
 import kotlinx.android.synthetic.main.activity_main.*
-import ru.gc986.logs2.Logs
+import ru.gc986.logs.Logs
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,8 +17,8 @@ class MainActivity : AppCompatActivity() {
 
     fun btSendLogClick(view: View){
         tvInfo.visibility = VISIBLE
-        Logs.TAG = "MyApp"
-        Logs.i("SeNd_MeSsAgE_>>>")
+        Logs.TAG = "Hello_Logs"
+        Logs.i("Click >>> ${(view as Button).text}")
     }
 
 }

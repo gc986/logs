@@ -1,4 +1,4 @@
-package ru.gc986.logs2;
+package ru.gc986.logs;
 
 import org.junit.Test;
 
