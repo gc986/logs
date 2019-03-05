@@ -15,8 +15,8 @@ How to use?<br>
 4* - setup active<br>
 <i><b>Logs.enable = true</b></i><br>
 <br>
-Fuctions:<br>
-Logs.enable - on/off logs<br>
+<u>Fuctions and properties:</u><br>
+<i><b>Logs.enable<i><b> - on/off logs<br>
 <i><b>Logs.i("text...")</b></i> - send info log <i>(if Logs.enable == true)</i><br>
 <i><b>Logs.i("text...", Array<String>)</i></b> - send array info log <i>(if Logs.enable == true)</i><br>
 <i><b>Logs.e("text...")</i></b> - send err log <i>(if Logs.enable == true)</i><br>
